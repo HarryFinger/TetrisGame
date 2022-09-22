@@ -5,4 +5,4 @@ SFML library was used in the project. Added HUD for score and music.
 Original soundtrack is included))
 
 
-![GameExample1](https://user-images.githubusercontent.com/88842047/191764741-d88b6c80-2a1a-4fdd-b8a3-639c1a6c50b6.jpg)
+![GameExample1](https://user-images.githubusercontent.com/88842047/191776062-0a0600a3-04f8-48a2-80a5-32d312464abc.jpg)
