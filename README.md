@@ -1,6 +1,6 @@
 Simple Tetris game was made to improve C++ skills.
 
-SFML library was used in the project. Added HUD for score and music.
+SFML library was used in the project.
 
 Original soundtrack is included))
 
