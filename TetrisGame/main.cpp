@@ -46,7 +46,7 @@ int main()
 	srand(time(0));
 
 	Font font;
-	std::string font_path = "C:/dev/TetrisGame/TetrisGame/font/calibri.ttf";
+	std::string font_path = "./../TetrisGame/font/calibri.ttf";
 	font.loadFromFile(font_path);
 	Text pre_score_text;
 	Text score_text;
@@ -78,8 +78,8 @@ int main()
 
 	RenderWindow window(VideoMode(300, 460), "The Game!");
 
-	std::string music_path = "C:/dev/TetrisGame/TetrisGame/music/tetris.wav";
-	std::string achieve_path = "C:/dev/TetrisGame/TetrisGame/music/goal.wav";
+	std::string music_path = "./../TetrisGame/music/tetris.wav";
+	std::string achieve_path = "./../TetrisGame/TetrisGame/music/goal.wav";
 	Music main_music;
 	Music achieve_music;
 	main_music.openFromFile(music_path);
@@ -87,9 +87,9 @@ int main()
 	main_music.setLoop(1);
 	main_music.play();
 
-	std::string tiles_path = "C:/dev/TetrisGame/TetrisGame/images/tiles.png";
-	std::string frame_path = "C:/dev/TetrisGame/TetrisGame/images/frame.png";
-	std::string background_path = "C:/dev/TetrisGame/TetrisGame/images/background.png";
+	std::string tiles_path = "./../TetrisGame/images/tiles.png";
+	std::string frame_path = "./../TetrisGame/images/frame.png";
+	std::string background_path = "./../TetrisGame/images/background.png";
 	Texture tiles_texture, background_texture, frame_texture;
 	tiles_texture.loadFromFile(tiles_path);
 	frame_texture.loadFromFile(frame_path);
